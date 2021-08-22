@@ -62,7 +62,7 @@ form.addEventListener("submit", function(stop){
 		document.getElementById("birthtitle").innerText = "";
 	}
 	*/
-	if (radios1[0].checked === false && radios1[1].checked === false && radios1[2].checked === false && radios1 [3].checked === false && radios1[4].checked === false && radios1[5].checked === false && radios1[6].checked === false){
+	if (radios1[0].checked===false && radios1[1].checked===false && radios1[2].checked===false && radios1[3].checked===false && radios1[4].checked===false && radios1[5].checked===false && radios1[6].checked===false){
 		error += 1
 		document.getElementById("radios1title").innerText = "Escolha uma Opção"; 
 	}
@@ -70,7 +70,7 @@ form.addEventListener("submit", function(stop){
 		error = 0;
 		document.getElementById("radios1title").innerText = "";
 	}
-	if (radios2[0].checked === false && radios2[1].checked === false && radios2[2].checked === false && radios2 [3].checked === false && radios2[4].checked === false && radios2[5].checked === false && radios2[6].checked === false){
+	if (radios2[0].checked===false && radios2[1].checked===false && radios2[2].checked===false && radios2[3].checked===false && radios2[4].checked===false && radios2[5].checked===false && radios2[6].checked===false){
 		error += 1
 		document.getElementById("radios2title").innerText = "Escolha um opção";
 	}
